@@ -275,3 +275,4 @@ C:\Users\kamil\MvcPracownik\MvcPracownicy\obj\Debug\net8.0\refint\MvcPracownicy.
 C:\Users\kamil\MvcPracownik\MvcPracownicy\obj\Debug\net8.0\MvcPracownicy.pdb
 C:\Users\kamil\MvcPracownik\MvcPracownicy\obj\Debug\net8.0\MvcPracownicy.genruntimeconfig.cache
 C:\Users\kamil\MvcPracownik\MvcPracownicy\obj\Debug\net8.0\ref\MvcPracownicy.dll
+C:\Users\kamil\MvcPracownik\MvcPracownicy\obj\Debug\net8.0\MvcPracownicy.sourcelink.json
