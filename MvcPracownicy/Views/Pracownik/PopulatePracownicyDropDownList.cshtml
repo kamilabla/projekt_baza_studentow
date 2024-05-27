@@ -1,0 +1,15 @@
+@model ResultViewModel
+
+@{
+    ViewData["Title"] = "Result";
+}
+
+<h2>Wybierz Pracownika</h2>
+
+<form asp-action="PopulatePracownicyDropDownList">
+    <div class="form-group">
+        <label for="PracownikID">Pracownik</label>
+        <select asp-for="SelectedPracownik" class="form-control" asp-items="ViewBag.PracownikID"></select>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

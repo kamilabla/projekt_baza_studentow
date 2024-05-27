@@ -1,9 +1,18 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using MvcPracownik.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<MvcPracownikContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("MvcPracownikContext") ?? throw new InvalidOperationException("Connection string 'MvcPracownikContext' not found.")));
+
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromSeconds(150);
+    options.Cookie.HttpOnly = true;//plik cookie jest niedostępny przez skrypt po stronie klienta
+    options.Cookie.IsEssential = true;//pliki cookie sesji będą zapisywane dzięki czemu sesje będzie mogła być śledzona podczas nawigacji lub przeładowania strony
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
