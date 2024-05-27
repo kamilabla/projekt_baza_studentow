@@ -10,22 +10,22 @@ using MvcStrona.Models;
 
 namespace MvcPracownicy.Controllers
 {
-    public class PracownikController : Controller
+    public class GodzinyNaukiController : Controller
     {
         private readonly MvcPracownikContext _context;
 
-        public PracownikController(MvcPracownikContext context)
+        public GodzinyNaukiController(MvcPracownikContext context)
         {
             _context = context;
         }
 
-        // GET: Pracownik
+        // GET: GodzinyNauki
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Pracownik.ToListAsync());
+            return View(await _context.GodzinyNauki.ToListAsync());
         }
 
-        // GET: Pracownik/Details/5
+        // GET: GodzinyNauki/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -33,50 +33,39 @@ namespace MvcPracownicy.Controllers
                 return NotFound();
             }
 
-            var pracownik = await _context.Pracownik
-                .FirstOrDefaultAsync(m => m.IDpracownika == id);
-            if (pracownik == null)
+            var godzinyNauki = await _context.GodzinyNauki
+                .FirstOrDefaultAsync(m => m.ID == id);
+            if (godzinyNauki == null)
             {
                 return NotFound();
             }
 
-            return View(pracownik);
+            return View(godzinyNauki);
         }
 
-        private void PopulatePracownicyDropDownList(object selectedPracownik = null)
-        {
-            var wybraniPracownicy = from e in _context.Pracownik
-                            orderby e.IDpracownika
-                            select e;
-            var res = wybraniPracownicy.AsNoTracking();
-            ViewBag.EtatyID = new SelectList(res, "Id pracownika", "Nazwa", selectedPracownik); // nie działa jeszcze ???
-        }
-
-        // GET: Pracownik/Create
+        // GET: GodzinyNauki/Create
         public IActionResult Create()
         {
-            PopulatePracownicyDropDownList();
             return View();
         }
 
-        // POST: Pracownik/Create
+        // POST: GodzinyNauki/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IDpracownika,Imie,Nazwisko,Placa,DataZatrudnienia")] Pracownik pracownik)
+        public async Task<IActionResult> Create([Bind("ID,IDucznia,Jezyk,Godziny")] GodzinyNauki godzinyNauki)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(pracownik);
+                _context.Add(godzinyNauki);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            PopulatePracownicyDropDownList(pracownik.IDpracownika);  // nie wiem czy IDpracownika jest tu OK
-            return View(pracownik);
+            return View(godzinyNauki);
         }
 
-        // GET: Pracownik/Edit/5
+        // GET: GodzinyNauki/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -84,22 +73,22 @@ namespace MvcPracownicy.Controllers
                 return NotFound();
             }
 
-            var pracownik = await _context.Pracownik.FindAsync(id);
-            if (pracownik == null)
+            var godzinyNauki = await _context.GodzinyNauki.FindAsync(id);
+            if (godzinyNauki == null)
             {
                 return NotFound();
             }
-            return View(pracownik);
+            return View(godzinyNauki);
         }
 
-        // POST: Pracownik/Edit/5
+        // POST: GodzinyNauki/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IDpracownika,Imie,Nazwisko,Placa,DataZatrudnienia")] Pracownik pracownik)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,IDucznia,Jezyk,Godziny")] GodzinyNauki godzinyNauki)
         {
-            if (id != pracownik.IDpracownika)
+            if (id != godzinyNauki.ID)
             {
                 return NotFound();
             }
@@ -108,12 +97,12 @@ namespace MvcPracownicy.Controllers
             {
                 try
                 {
-                    _context.Update(pracownik);
+                    _context.Update(godzinyNauki);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!PracownikExists(pracownik.IDpracownika))
+                    if (!GodzinyNaukiExists(godzinyNauki.ID))
                     {
                         return NotFound();
                     }
@@ -124,10 +113,10 @@ namespace MvcPracownicy.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(pracownik);
+            return View(godzinyNauki);
         }
 
-        // GET: Pracownik/Delete/5
+        // GET: GodzinyNauki/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -135,34 +124,34 @@ namespace MvcPracownicy.Controllers
                 return NotFound();
             }
 
-            var pracownik = await _context.Pracownik
-                .FirstOrDefaultAsync(m => m.IDpracownika == id);
-            if (pracownik == null)
+            var godzinyNauki = await _context.GodzinyNauki
+                .FirstOrDefaultAsync(m => m.ID == id);
+            if (godzinyNauki == null)
             {
                 return NotFound();
             }
 
-            return View(pracownik);
+            return View(godzinyNauki);
         }
 
-        // POST: Pracownik/Delete/5
+        // POST: GodzinyNauki/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var pracownik = await _context.Pracownik.FindAsync(id);
-            if (pracownik != null)
+            var godzinyNauki = await _context.GodzinyNauki.FindAsync(id);
+            if (godzinyNauki != null)
             {
-                _context.Pracownik.Remove(pracownik);
+                _context.GodzinyNauki.Remove(godzinyNauki);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool PracownikExists(int id)
+        private bool GodzinyNaukiExists(int id)
         {
-            return _context.Pracownik.Any(e => e.IDpracownika == id);
+            return _context.GodzinyNauki.Any(e => e.ID == id);
         }
     }
 }

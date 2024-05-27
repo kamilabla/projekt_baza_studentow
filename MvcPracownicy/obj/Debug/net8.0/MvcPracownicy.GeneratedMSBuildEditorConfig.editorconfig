@@ -26,6 +26,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\kamil\MvcPracownik\MvcPracownicy
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/GodzinyNauki/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29kemlueU5hdWtpXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/GodzinyNauki/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29kemlueU5hdWtpXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/GodzinyNauki/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29kemlueU5hdWtpXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/GodzinyNauki/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29kemlueU5hdWtpXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/GodzinyNauki/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29kemlueU5hdWtpXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Grupa/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3J1cGFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
