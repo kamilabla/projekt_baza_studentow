@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 
 namespace MvcStrona.Models{
-   
+
 public class Student
     {
         [Key]

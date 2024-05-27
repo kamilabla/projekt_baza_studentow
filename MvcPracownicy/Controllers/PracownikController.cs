@@ -43,7 +43,7 @@ namespace MvcPracownicy.Controllers
             return View(pracownik);
         }
 
-        private void PopulatePracownicyDropDownList(object selectedPracownik = null)
+        public void PopulatePracownicyDropDownList(object selectedPracownik = null)
         {
             var wybraniPracownicy = from e in _context.Pracownik
                             orderby e.IDpracownika
@@ -55,8 +55,12 @@ namespace MvcPracownicy.Controllers
         // GET: Pracownik/Create
         public IActionResult Create()
         {
-            PopulatePracownicyDropDownList();
             return View();
+        }
+
+        public IActionResult Result()
+        {
+            return View("PopulatePracownicyDropDownList");
         }
 
         // POST: Pracownik/Create
