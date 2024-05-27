@@ -14,6 +14,7 @@ public class Student
         [Display(Name = "Data dołączenia")]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime DataDolaczenia { get; set; }
+        //[Display(Name = "Grupa studenta")]
         public Grupa? Grupa { get; set; }  
 
     }

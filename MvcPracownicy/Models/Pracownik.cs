@@ -12,7 +12,7 @@ namespace MvcStrona.Models
         [Display(Name = "Nazwisko")]
         public String Nazwisko { get; set; }
         [Display(Name = "Płaca")]
-        public decimal Placa { get; set; }
+        public int Placa { get; set; }
         [DataType(DataType.Date)]
         [Display(Name = "Data zatrudnienia")]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
