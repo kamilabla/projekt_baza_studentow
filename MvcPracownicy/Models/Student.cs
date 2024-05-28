@@ -15,6 +15,7 @@ public class Student
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime DataDolaczenia { get; set; }
         [Display(Name = "Grupa studenta")]
+        [DisplayFormat(NullDisplayText = "Brak")]
         public Grupa? Grupa { get; set; }  
 
     }
