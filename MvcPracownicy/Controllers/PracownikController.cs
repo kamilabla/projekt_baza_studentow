@@ -43,14 +43,35 @@ namespace MvcPracownicy.Controllers
             return View(pracownik);
         }
 
+        // public void PopulatePracownicyDropDownList(object selectedPracownik = null)
+        // {
+        //     var wybraniPracownicy = from e in _context.Pracownik
+        //                     orderby e.IDpracownika
+        //                     select e;
+        //     var res = wybraniPracownicy.AsNoTracking();
+        //     ViewBag.EtatyID = new SelectList(res, "Id pracownika", "Nazwa", selectedPracownik); // nie działa jeszcze ???
+        // }
+
         public void PopulatePracownicyDropDownList(object selectedPracownik = null)
         {
-            var wybraniPracownicy = from e in _context.Pracownik
+        var pracownikZNajwyzszymWynagrodzeniem = _context.Pracownik
+        .OrderByDescending(e => e.Placa)
+        .FirstOrDefault();
+
+        var wybraniPracownicy = from e in _context.Pracownik
                             orderby e.IDpracownika
                             select e;
-            var res = wybraniPracownicy.AsNoTracking();
-            ViewBag.EtatyID = new SelectList(res, "Id pracownika", "Nazwa", selectedPracownik); // nie działa jeszcze ???
+
+        var res = wybraniPracownicy.AsNoTracking().ToList();
+        ViewBag.PracownikID = new SelectList(res, "IDpracownika", "Nazwa", selectedPracownik);
+
+    // Optional: If you want to set the default selected value to the employee with the highest salary
+        if (pracownikZNajwyzszymWynagrodzeniem != null)
+        {
+            ViewBag.PracownikZNajwyzszymWynagrodzeniem = pracownikZNajwyzszymWynagrodzeniem.IDpracownika;
         }
+        }
+
 
         // GET: Pracownik/Create
         public IActionResult Create()

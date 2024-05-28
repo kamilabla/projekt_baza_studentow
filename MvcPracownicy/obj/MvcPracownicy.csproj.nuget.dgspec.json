@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kinga\\projekt_pz2\\projekt_baza_studentow\\MvcPracownicy\\MvcPracownicy.csproj": {}
+    "C:\\Users\\kamil\\MvcPracownik\\MvcPracownicy\\MvcPracownicy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kinga\\projekt_pz2\\projekt_baza_studentow\\MvcPracownicy\\MvcPracownicy.csproj": {
+    "C:\\Users\\kamil\\MvcPracownik\\MvcPracownicy\\MvcPracownicy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kinga\\projekt_pz2\\projekt_baza_studentow\\MvcPracownicy\\MvcPracownicy.csproj",
+        "projectUniqueName": "C:\\Users\\kamil\\MvcPracownik\\MvcPracownicy\\MvcPracownicy.csproj",
         "projectName": "MvcPracownicy",
-        "projectPath": "C:\\Users\\Kinga\\projekt_pz2\\projekt_baza_studentow\\MvcPracownicy\\MvcPracownicy.csproj",
-        "packagesPath": "C:\\Users\\Kinga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kinga\\projekt_pz2\\projekt_baza_studentow\\MvcPracownicy\\obj\\",
+        "projectPath": "C:\\Users\\kamil\\MvcPracownik\\MvcPracownicy\\MvcPracownicy.csproj",
+        "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kamil\\MvcPracownik\\MvcPracownicy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kinga\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -91,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -17,123 +17,123 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MvcPracownicy
 build_property.RootNamespace = MvcPracownicy
-build_property.ProjectDir = C:\Users\Kinga\projekt_pz2\projekt_baza_studentow\MvcPracownicy\
+build_property.ProjectDir = C:\Users\kamil\MvcPracownik\MvcPracownicy\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Kinga\projekt_pz2\projekt_baza_studentow\MvcPracownicy
+build_property.MSBuildProjectDirectory = C:\Users\kamil\MvcPracownik\MvcPracownicy
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/GodzinyNauki/Create.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/GodzinyNauki/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29kemlueU5hdWtpXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/GodzinyNauki/Delete.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/GodzinyNauki/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29kemlueU5hdWtpXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/GodzinyNauki/Details.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/GodzinyNauki/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29kemlueU5hdWtpXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/GodzinyNauki/Edit.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/GodzinyNauki/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29kemlueU5hdWtpXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/GodzinyNauki/Index.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/GodzinyNauki/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29kemlueU5hdWtpXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Grupa/Create.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Grupa/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3J1cGFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Grupa/Delete.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Grupa/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3J1cGFcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Grupa/Details.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Grupa/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3J1cGFcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Grupa/Edit.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Grupa/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3J1cGFcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Grupa/Index.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Grupa/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3J1cGFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Home/Index.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Home/Privacy.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Pracownik/Create.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Pracownik/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY293bmlrXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Pracownik/Delete.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Pracownik/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY293bmlrXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Pracownik/Details.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Pracownik/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY293bmlrXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Pracownik/Edit.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Pracownik/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY293bmlrXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Pracownik/Index.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Pracownik/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY293bmlrXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Pracownik/PopulatePracownicyDropDownList.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Pracownik/PopulatePracownicyDropDownList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY293bmlrXFBvcHVsYXRlUHJhY293bmljeURyb3BEb3duTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Shared/Error.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Student/Create.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Student/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Student/Delete.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Student/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Student/Details.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Student/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Student/Edit.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Student/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Student/Index.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/_ViewImports.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/_ViewStart.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kinga/projekt_pz2/projekt_baza_studentow/MvcPracownicy/Views/Shared/_Layout.cshtml]
+[C:/Users/kamil/MvcPracownik/MvcPracownicy/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wwpj3lhugh

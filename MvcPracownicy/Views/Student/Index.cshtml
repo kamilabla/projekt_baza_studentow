@@ -21,6 +21,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.DataDolaczenia)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Grupa)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -35,6 +38,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.DataDolaczenia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grupa)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.IDucznia">Edit</a> |
