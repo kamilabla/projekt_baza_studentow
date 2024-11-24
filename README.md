@@ -2,7 +2,7 @@
 
 ## Opis projektu
 
-Projekt to aplikacja webowa napisana w technologii **ASP.NET MVC**, która pozwala na zarządzanie bazą danych studentów. Umożliwia dodawanie, edytowanie, usuwanie oraz przeglądanie informacji o studentach. Aplikacja może być używana np. w systemach zarządzania uczelniami lub innymi instytucjami edukacyjnymi.
+Projekt to aplikacja webowa napisana w technologii **ASP.NET MVC**, która pozwala na zarządzanie bazą danych studentów. Umożliwia dodawanie, edytowanie, usuwanie oraz przeglądanie informacji o studentach oraz pracownikach. Aplikacja może być używana np. w systemach zarządzania uczelniami lub innymi instytucjami edukacyjnymi.
 
 ## Struktura projektu
 
@@ -40,7 +40,10 @@ Projekt to aplikacja webowa napisana w technologii **ASP.NET MVC**, która pozwa
   Możliwość sortowania i filtrowania danych.
 
 - **Dodawanie nowych studentów**  
-  Formularz umożliwiający wprowadzenie informacji takich jak: imię, nazwisko, numer indeksu, wydział, kierunek studiów.
+  Formularz umożliwiający wprowadzenie informacji takich jak: imię, nazwisko, data dołączenia oraz nazwę grupy studenta.
+
+  <img width="312" alt="image" src="https://github.com/user-attachments/assets/4f301430-90c3-4cfd-98be-8f01b7571f56">
+
 
 - **Edytowanie istniejących danych**  
   Edycja danych studenta poprzez formularz.
