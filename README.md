@@ -103,8 +103,9 @@ Możliwe przyszłe funkcjonalności:
 
 ## Autorzy
 
-- **Imię i Nazwisko**  
-  Kamila Błaszczyna  [https://github.com/kamilabla]
+- **Kamila Błaszczyna**  
+  [https://github.com/kamilabla]
 
-  Kinga Alibożek   [https://github.com/kingaa1]
+-  **Kinga Alibożek**
+  [https://github.com/kingaa1]
 
