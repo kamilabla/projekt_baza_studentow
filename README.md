@@ -24,9 +24,6 @@ Projekt to aplikacja webowa napisana w technologii **ASP.NET MVC**, która pozwa
 - **`appsettings.json`**  
   Plik konfiguracyjny aplikacji, zawierający ustawienia, takie jak ConnectionString do bazy danych.
 
-- **`Startup.cs`**  
-  Plik startowy aplikacji, definiujący konfigurację aplikacji, rejestrowanie usług i middleware.
-
 - **`Program.cs`**  
   Punkt wejścia aplikacji, odpowiedzialny za uruchomienie serwera.
 
@@ -103,9 +100,7 @@ Możliwe przyszłe funkcjonalności:
 
 ## Autorzy
 
-- **Kamila Błaszczyna**  
-  [https://github.com/kamilabla]
+- **Kamila Błaszczyna**  [https://github.com/kamilabla]
 
--  **Kinga Alibożek**
-  [https://github.com/kingaa1]
+-  **Kinga Alibożek**  https://github.com/kingaa1]
 
