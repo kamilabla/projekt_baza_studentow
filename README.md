@@ -39,7 +39,7 @@ Projekt to aplikacja webowa napisana w technologii **ASP.NET MVC**, która pozwa
 <img width="839" alt="image" src="https://github.com/user-attachments/assets/32efbbbc-a1ba-4e14-a87b-149cffa43d8f">
 
 - **Wyświetlanie listy studentów**  
-  W zakładce 'Student' mamy możliwość sortowania i filtrowania danych studentów.
+  W zakładce 'Student' mamy możliwość edytowania i usuwania danych studentów.
   
 <img width="799" alt="image" src="https://github.com/user-attachments/assets/893b57ca-58b9-4ab8-8325-8855daacb9e8">
 
