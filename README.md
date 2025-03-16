@@ -1,34 +1,37 @@
 # ASP.NET MVC - Baza Studentów
 
-## Opis projektu
+## Description
 
 Projekt to aplikacja webowa napisana w technologii **ASP.NET MVC**, która pozwala na zarządzanie bazą danych studentów. Umożliwia dodawanie, edytowanie, usuwanie oraz przeglądanie informacji o studentach oraz pracownikach. Aplikacja może być używana np. w systemach zarządzania uczelniami lub innymi instytucjami edukacyjnymi.
 
-## Struktura projektu
+Web application written using **ASP.NET MVC**, which enables managing a database of students' information. It allows adding, editing, deleting and looking through information about students and staff. This application could potentially be used in academic systems or other educational institutions.
+
+## Project structure
 
 - **`Controllers/`**  
   Kontrolery odpowiedzialne za logikę aplikacji. Zarządzają żądaniami HTTP i odpowiadają za przekazywanie danych do widoków.
 
+  Controllers are responsible for logic behind application. They manage HTTP requests and transfer data to Views.
+
 - **`Models/`**  
   Modele danych i klasy Entity Framework. Odpowiadają za strukturę danych i logikę biznesową aplikacji.
+
+  Models are responsible for data structure and business logic of the application.
 
 - **`Views/`**  
   Widoki (HTML + Razor) używane do prezentacji danych użytkownikowi. Zawierają pliki odpowiadające za interfejs użytkownika.
 
-- **`wwwroot/`**  
-  Zasoby statyczne, takie jak pliki CSS, JavaScript, obrazy, ikony, itp.
-
-- **`Migrations/`**  
-  Pliki migracji generowane przez Entity Framework, używane do zarządzania zmianami w strukturze bazy danych.
-
-- **`appsettings.json`**  
-  Plik konfiguracyjny aplikacji, zawierający ustawienia, takie jak ConnectionString do bazy danych.
+  Views are used to present data to the user (user interface).
 
 - **`Program.cs`**  
   Punkt wejścia aplikacji, odpowiedzialny za uruchomienie serwera.
 
+  Main point of the application, responsible for launching server.
+
 - **`Data/`**  
   Folder zawierający klasy związane z obsługą bazy danych, takie jak kontekst Entity Framework (`DbContext`).
+
+  Directory containing classes that are related to database management, like Entity Framework context.
 
 
 ## Funkcjonalności
