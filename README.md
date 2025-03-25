@@ -1,4 +1,4 @@
-# ASP.NET MVC - Baza Studentów
+# ASP.NET MVC - Student's Database 
 
 ## Description
 Web application written using **ASP.NET MVC**, which enables managing a database of students' information. It allows adding, editing, deleting and looking through information about students and staff. This application could potentially be used in academic systems or other educational institutions.
