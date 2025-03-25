@@ -28,8 +28,7 @@ Web application written using **ASP.NET MVC**, which enables managing a database
   
 <img width="839" alt="image" src="https://github.com/user-attachments/assets/32efbbbc-a1ba-4e14-a87b-149cffa43d8f">
 
-- **View of a users' list**  
-  W zakładce 'Student' mamy możliwość edytowania i usuwania danych studentów.
+- **View of a users' list**
   In the 'Student' tab we have a chance to edit and delete the students' data.
   
 <img width="799" alt="image" src="https://github.com/user-attachments/assets/893b57ca-58b9-4ab8-8325-8855daacb9e8">
