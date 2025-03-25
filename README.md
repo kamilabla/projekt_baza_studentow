@@ -73,7 +73,7 @@ Web application written using **ASP.NET MVC**, which enables managing a database
 Possible further development encompasses:
 
 - **Authorisation and authentication**
-- 
+  
 - **Export of students' data to a file**  
 
 - **Import of the data from a file**  
@@ -84,5 +84,5 @@ Possible further development encompasses:
 
 - **Kamila Błaszczyna**  [https://github.com/kamilabla]
 
--  **Kinga Alibożek**  https://github.com/kingaa1]
+-  **Kinga Alibożek**  [https://github.com/kingaa1]
 
